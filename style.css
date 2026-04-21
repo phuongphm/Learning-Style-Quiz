@@ -45,6 +45,12 @@ body {
   color: #60854f;
   font-size: 1.1rem;
   margin-bottom: 30px;
+}.start-image {  max-width: 100%;  height: auto;  margin-bottom: 20px;}
+
+.start-image {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
 }
 
 .quiz-header {
@@ -175,4 +181,11 @@ button:hover {
   #start-screen h1 {
     font-size: 2rem;
   }
+
+  .start-image {
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+  }
 }
+
