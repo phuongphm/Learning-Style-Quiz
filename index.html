@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="screen active" id="start-screen">
+        <img
+          src="image/start screen.png"
+          alt="Start Screen Image"
+          class="start-image"
+        />
+        <h1>What is your learning style?</h1>
+        <p>Answer 5 questions to discover your learning style!</p>
+        <button id="start-btn">Start Quiz</button>
+      </div>
+
+      <div class="screen" id="quiz-screen">
+        <div class="quiz-header">
+          <h2 id="question-text">Question goes here</h2>
+          <div class="quiz-info">
+            <p>
+              Question <span id="current-question">1</span> of
+              <span id="total-questions">5</span>
+            </p>
+          </div>
+        </div>
+
+        <div id="answers-container" class="answers-container">
+          <!-- Answer buttons will be generated here -->
+        </div>
+        <div class="progress-bar">
+          <div id="progress" class="progress"></div>
+        </div>
+      </div>
+
+      <div id="result-screen" class="screen">
+        <h1>Your Learning Style</h1>
+        <div class="result-container">
+          <img
+            id="result-image"
+            src=""
+            alt="Learning Style"
+            class="result-image"
+          />
+          <h2 id="result-type">Loading...</h2>
+          <p id="result-description">Loading...</p>
+        </div>
+        <button id="restart-btn">Restart Quiz</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
